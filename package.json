@@ -1,12 +1,12 @@
 {
   "name": "document-ai",
-  "version": "0.0.1-alpha.0",
+  "version": "1.0.0",
   "description": "The official TypeScript library for the Document AI API",
   "author": "Document AI <>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
-  "repository": "github:stainless-sdks/document-ai-typescript",
+  "repository": "github:sili-wen/document-ai-sdk",
   "license": "Apache-2.0",
   "packageManager": "yarn@1.22.22",
   "files": [
