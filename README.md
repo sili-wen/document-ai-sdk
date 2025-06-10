@@ -26,7 +26,9 @@ const client = new DocumentAI({
   apiKey: process.env['DOCUMENT_AI_API_KEY'], // This is the default and can be omitted
 });
 
-await client.fileUploads.create({ name: 'REPLACE_ME', type: 'application/pdf' });
+const fileUpload = await client.fileUploads.create({ name: 'REPLACE_ME', type: 'application/pdf' });
+
+console.log(fileUpload.s3Key);
 ```
 
 ### Request & Response types
@@ -42,7 +44,7 @@ const client = new DocumentAI({
 });
 
 const params: DocumentAI.FileUploadCreateParams = { name: 'REPLACE_ME', type: 'application/pdf' };
-await client.fileUploads.create(params);
+const fileUpload: DocumentAI.FileUploadCreateResponse = await client.fileUploads.create(params);
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
@@ -55,7 +57,7 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-const response = await client.fileUploads
+const fileUpload = await client.fileUploads
   .create({ name: 'REPLACE_ME', type: 'application/pdf' })
   .catch(async (err) => {
     if (err instanceof DocumentAI.APIError) {
@@ -143,11 +145,11 @@ const response = await client.fileUploads
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: result, response: raw } = await client.fileUploads
+const { data: fileUpload, response: raw } = await client.fileUploads
   .create({ name: 'REPLACE_ME', type: 'application/pdf' })
   .withResponse();
 console.log(raw.headers.get('X-My-Header'));
-console.log(result);
+console.log(fileUpload.s3Key);
 ```
 
 ### Logging

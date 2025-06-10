@@ -2,17 +2,21 @@
 
 import { APIResource } from '../core/resource';
 import { APIPromise } from '../core/api-promise';
-import { buildHeaders } from '../internal/headers';
 import { RequestOptions } from '../internal/request-options';
 
 export class FileUploads extends APIResource {
-  create(body: FileUploadCreateParams, options?: RequestOptions): APIPromise<void> {
-    return this._client.post('/file-uploads', {
-      body,
-      ...options,
-      headers: buildHeaders([{ Accept: '*/*' }, options?.headers]),
-    });
+  /**
+   * Create a File Upload
+   */
+  create(body: FileUploadCreateParams, options?: RequestOptions): APIPromise<FileUploadCreateResponse> {
+    return this._client.post('/file-uploads', { body, ...options });
   }
+}
+
+export interface FileUploadCreateResponse {
+  s3Key: string;
+
+  url: string;
 }
 
 export interface FileUploadCreateParams {
@@ -22,5 +26,8 @@ export interface FileUploadCreateParams {
 }
 
 export declare namespace FileUploads {
-  export { type FileUploadCreateParams as FileUploadCreateParams };
+  export {
+    type FileUploadCreateResponse as FileUploadCreateResponse,
+    type FileUploadCreateParams as FileUploadCreateParams,
+  };
 }
