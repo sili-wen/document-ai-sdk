@@ -20,6 +20,11 @@ import { APIPromise } from './core/api-promise';
 import { type Fetch } from './internal/builtin-types';
 import { HeadersLike, NullableHeaders, buildHeaders } from './internal/headers';
 import { FinalRequestOptions, RequestOptions } from './internal/request-options';
+import {
+  DocumentContextCreateParams,
+  DocumentContextCreateResponse,
+  DocumentContexts,
+} from './resources/document-contexts';
 import { DocumentCreateParams, DocumentCreateResponse, Documents } from './resources/documents';
 import { FileUploadCreateParams, FileUploadCreateResponse, FileUploads } from './resources/file-uploads';
 import { readEnv } from './internal/utils/env';
@@ -700,9 +705,11 @@ export class DocumentAI {
 
   fileUploads: API.FileUploads = new API.FileUploads(this);
   documents: API.Documents = new API.Documents(this);
+  documentContexts: API.DocumentContexts = new API.DocumentContexts(this);
 }
 DocumentAI.FileUploads = FileUploads;
 DocumentAI.Documents = Documents;
+DocumentAI.DocumentContexts = DocumentContexts;
 export declare namespace DocumentAI {
   export type RequestOptions = Opts.RequestOptions;
 
@@ -716,5 +723,11 @@ export declare namespace DocumentAI {
     Documents as Documents,
     type DocumentCreateResponse as DocumentCreateResponse,
     type DocumentCreateParams as DocumentCreateParams,
+  };
+
+  export {
+    DocumentContexts as DocumentContexts,
+    type DocumentContextCreateResponse as DocumentContextCreateResponse,
+    type DocumentContextCreateParams as DocumentContextCreateParams,
   };
 }

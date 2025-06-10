@@ -17,3 +17,13 @@ Types:
 Methods:
 
 - <code title="post /documents">client.documents.<a href="./src/resources/documents.ts">create</a>({ ...params }) -> DocumentCreateResponse</code>
+
+# DocumentContexts
+
+Types:
+
+- <code><a href="./src/resources/document-contexts.ts">DocumentContextCreateResponse</a></code>
+
+Methods:
+
+- <code title="post /document-contexts">client.documentContexts.<a href="./src/resources/document-contexts.ts">create</a>({ ...params }) -> DocumentContextCreateResponse</code>
