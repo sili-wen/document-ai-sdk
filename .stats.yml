@@ -1,4 +1,4 @@
 configured_endpoints: 1
-openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/siliwen%2Fdocument-ai-05d7702c57b73cb74252e4b0b17a9f3f8e131d18510a4817bba96d9f8fee21e2.yml
-openapi_spec_hash: 9f99515fec37b160c48e9de18859a38d
-config_hash: d0d506ff1e98f3be61d7abc9d6f00d44
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/siliwen%2Fdocument-ai-ada6dfdfa3d999af03dff345b7d138c09103f47faf2b238d96651717ca01e40e.yml
+openapi_spec_hash: d5741c27ca468561d163ff4a29c95d9c
+config_hash: ed090e2576da37c75c401938bc1b6f47
