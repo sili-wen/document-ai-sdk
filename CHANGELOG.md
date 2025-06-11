@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0 (2025-06-11)
+
+Full Changelog: [v1.3.0...v1.4.0](https://github.com/sili-wen/document-ai-sdk/compare/v1.3.0...v1.4.0)
+
+### Features
+
+* **api:** update via SDK Studio ([2406737](https://github.com/sili-wen/document-ai-sdk/commit/240673745e4f00a3f5c550102cc8849e18a761cb))
+
 ## 1.3.0 (2025-06-10)
 
 Full Changelog: [v1.2.0...v1.3.0](https://github.com/sili-wen/document-ai-sdk/compare/v1.2.0...v1.3.0)
