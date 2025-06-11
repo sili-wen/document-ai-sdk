@@ -6,7 +6,7 @@ import { RequestOptions } from '../internal/request-options';
 
 export class DocumentContexts extends APIResource {
   /**
-   * Create a Document
+   * Create a Document Context
    */
   create(
     body: DocumentContextCreateParams,
@@ -17,6 +17,10 @@ export class DocumentContexts extends APIResource {
 }
 
 export interface DocumentContextCreateResponse {
+  answer: string;
+
+  context: string;
+
   fileKey: string;
 
   query: string;
