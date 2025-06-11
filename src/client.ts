@@ -20,6 +20,7 @@ import { APIPromise } from './core/api-promise';
 import { type Fetch } from './internal/builtin-types';
 import { HeadersLike, NullableHeaders, buildHeaders } from './internal/headers';
 import { FinalRequestOptions, RequestOptions } from './internal/request-options';
+import { Chat, ChatCreateMessageParams, ChatCreateMessageResponse } from './resources/chat';
 import {
   DocumentContextCreateParams,
   DocumentContextCreateResponse,
@@ -706,10 +707,12 @@ export class DocumentAI {
   fileUploads: API.FileUploads = new API.FileUploads(this);
   documents: API.Documents = new API.Documents(this);
   documentContexts: API.DocumentContexts = new API.DocumentContexts(this);
+  chat: API.Chat = new API.Chat(this);
 }
 DocumentAI.FileUploads = FileUploads;
 DocumentAI.Documents = Documents;
 DocumentAI.DocumentContexts = DocumentContexts;
+DocumentAI.Chat = Chat;
 export declare namespace DocumentAI {
   export type RequestOptions = Opts.RequestOptions;
 
@@ -729,5 +732,11 @@ export declare namespace DocumentAI {
     DocumentContexts as DocumentContexts,
     type DocumentContextCreateResponse as DocumentContextCreateResponse,
     type DocumentContextCreateParams as DocumentContextCreateParams,
+  };
+
+  export {
+    Chat as Chat,
+    type ChatCreateMessageResponse as ChatCreateMessageResponse,
+    type ChatCreateMessageParams as ChatCreateMessageParams,
   };
 }

@@ -27,3 +27,13 @@ Types:
 Methods:
 
 - <code title="post /document-contexts">client.documentContexts.<a href="./src/resources/document-contexts.ts">create</a>({ ...params }) -> DocumentContextCreateResponse</code>
+
+# Chat
+
+Types:
+
+- <code><a href="./src/resources/chat.ts">ChatCreateMessageResponse</a></code>
+
+Methods:
+
+- <code title="post /chat/{id}/messages">client.chat.<a href="./src/resources/chat.ts">createMessage</a>(id, { ...params }) -> ChatCreateMessageResponse</code>
