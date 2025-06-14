@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.4.1 (2025-06-14)
+
+Full Changelog: [v1.4.0...v1.4.1](https://github.com/sili-wen/document-ai-sdk/compare/v1.4.0...v1.4.1)
+
+### Bug Fixes
+
+* publish script — handle NPM errors correctly ([1269895](https://github.com/sili-wen/document-ai-sdk/commit/126989599b159517ab3312be3146073ab38ac85d))
+
+
+### Chores
+
+* **internal:** add pure annotations, make base APIResource abstract ([e5375d9](https://github.com/sili-wen/document-ai-sdk/commit/e5375d901c0c16dd022acd0b0cb4d6d6784dd325))
+
 ## 1.4.0 (2025-06-11)
 
 Full Changelog: [v1.3.0...v1.4.0](https://github.com/sili-wen/document-ai-sdk/compare/v1.3.0...v1.4.0)
