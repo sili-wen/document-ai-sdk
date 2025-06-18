@@ -1,6 +1,6 @@
 # Document AI TypeScript API Library
 
-[![NPM version](https://img.shields.io/npm/v/document-ai.svg)](https://npmjs.org/package/document-ai) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/document-ai)
+[![NPM version](<https://img.shields.io/npm/v/document-ai.svg?label=npm%20(stable)>)](https://npmjs.org/package/document-ai) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/document-ai)
 
 This library provides convenient access to the Document AI REST API from server-side TypeScript or JavaScript.
 
