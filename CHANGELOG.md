@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.5.0 (2025-06-21)
+
+Full Changelog: [v1.4.1...v1.5.0](https://github.com/sili-wen/document-ai-sdk/compare/v1.4.1...v1.5.0)
+
+### Features
+
+* **client:** add support for endpoint-specific base URLs ([2d4ff84](https://github.com/sili-wen/document-ai-sdk/commit/2d4ff844c10dd7d5a1478b4fa8d8c0ad966efed0))
+
+
+### Bug Fixes
+
+* **client:** explicitly copy fetch in withOptions ([0a162f3](https://github.com/sili-wen/document-ai-sdk/commit/0a162f3fa89e2485a97b2aacbe3610879403530f))
+
+
+### Chores
+
+* **ci:** enable for pull requests ([76f17c5](https://github.com/sili-wen/document-ai-sdk/commit/76f17c502b8b6edfd07ee1edfffe2225e4cc468f))
+* **client:** refactor imports ([ae8dd14](https://github.com/sili-wen/document-ai-sdk/commit/ae8dd147655863fdbe34a3e85e139f706d1f6c33))
+* **readme:** update badges ([0abf538](https://github.com/sili-wen/document-ai-sdk/commit/0abf53829e1fa8a3b5a583dc77b11cef7c86b4e5))
+* **readme:** use better example snippet for undocumented params ([418257b](https://github.com/sili-wen/document-ai-sdk/commit/418257b0aadb1a260e6fba7631c97a1c8d69d043))
+
 ## 1.4.1 (2025-06-14)
 
 Full Changelog: [v1.4.0...v1.4.1](https://github.com/sili-wen/document-ai-sdk/compare/v1.4.0...v1.4.1)
