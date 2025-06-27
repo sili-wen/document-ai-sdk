@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.5.2 (2025-06-27)
+
+Full Changelog: [v1.5.1...v1.5.2](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.1...v1.5.2)
+
+### Bug Fixes
+
+* **client:** get fetchOptions type more reliably ([87e46ea](https://github.com/sili-wen/document-ai-sdk/commit/87e46ea6161fa552e28ae35e5b73713c5a4128b5))
+
 ## 1.5.1 (2025-06-27)
 
 Full Changelog: [v1.5.0...v1.5.1](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.0...v1.5.1)
