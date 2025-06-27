@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.5.1 (2025-06-27)
+
+Full Changelog: [v1.5.0...v1.5.1](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.0...v1.5.1)
+
+### Bug Fixes
+
+* **ci:** release-doctor — report correct token name ([3a31051](https://github.com/sili-wen/document-ai-sdk/commit/3a310518466c4d65b43f4d41b68a81a3448187e5))
+
 ## 1.5.0 (2025-06-21)
 
 Full Changelog: [v1.4.1...v1.5.0](https://github.com/sili-wen/document-ai-sdk/compare/v1.4.1...v1.5.0)
