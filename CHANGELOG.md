@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.5.3 (2025-06-28)
+
+Full Changelog: [v1.5.2...v1.5.3](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.2...v1.5.3)
+
+### Chores
+
+* **ci:** only run for pushes and fork pull requests ([c99cdd5](https://github.com/sili-wen/document-ai-sdk/commit/c99cdd59e967646690a56e954138aa999cc0b42e))
+
 ## 1.5.2 (2025-06-27)
 
 Full Changelog: [v1.5.1...v1.5.2](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.1...v1.5.2)
