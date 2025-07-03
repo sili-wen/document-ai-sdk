@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5.3 (2025-07-03)
+
+Full Changelog: [v1.5.2...v1.5.3](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.2...v1.5.3)
+
+### Chores
+
+* add docs to RequestOptions type ([533b494](https://github.com/sili-wen/document-ai-sdk/commit/533b4947447f4aac6ea8c46a32210ddb3ef748b8))
+* **ci:** only run for pushes and fork pull requests ([c99cdd5](https://github.com/sili-wen/document-ai-sdk/commit/c99cdd59e967646690a56e954138aa999cc0b42e))
+* **client:** improve path param validation ([d2a4daf](https://github.com/sili-wen/document-ai-sdk/commit/d2a4dafebd6ebff2c89ff99b650159cdfc07331e))
+
 ## 1.5.2 (2025-06-27)
 
 Full Changelog: [v1.5.1...v1.5.2](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.1...v1.5.2)

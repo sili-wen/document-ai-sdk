@@ -1,6 +1,6 @@
 {
   "name": "document-ai",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "The official TypeScript library for the Document AI API",
   "author": "Document AI <>",
   "types": "dist/index.d.ts",
