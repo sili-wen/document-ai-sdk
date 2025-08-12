@@ -8,7 +8,7 @@ const client = new DocumentAI({
 });
 
 describe('resource documents', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: only required params', async () => {
     const responsePromise = client.documents.create({ name: 'x', s3Key: 'x', type: 'application/pdf' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource documents', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: required and optional params', async () => {
     const response = await client.documents.create({ name: 'x', s3Key: 'x', type: 'application/pdf' });
   });
