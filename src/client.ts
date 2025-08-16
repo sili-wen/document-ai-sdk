@@ -732,10 +732,12 @@ export class DocumentAI {
   documentContexts: API.DocumentContexts = new API.DocumentContexts(this);
   chat: API.Chat = new API.Chat(this);
 }
+
 DocumentAI.FileUploads = FileUploads;
 DocumentAI.Documents = Documents;
 DocumentAI.DocumentContexts = DocumentContexts;
 DocumentAI.Chat = Chat;
+
 export declare namespace DocumentAI {
   export type RequestOptions = Opts.RequestOptions;
 
