@@ -8,7 +8,7 @@ const client = new DocumentAI({
 });
 
 describe('resource chat', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createMessage: only required params', async () => {
     const responsePromise = client.chat.createMessage('id', { fileKey: 'x', query: 'x' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource chat', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createMessage: required and optional params', async () => {
     const response = await client.chat.createMessage('id', { fileKey: 'x', query: 'x' });
   });
