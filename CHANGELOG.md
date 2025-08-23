@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.6.0 (2025-08-23)
+
+Full Changelog: [v1.5.2...v1.6.0](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.2...v1.6.0)
+
+### Features
+
+* **mcp:** add code execution tool ([3a24743](https://github.com/sili-wen/document-ai-sdk/commit/3a2474364be9099451d57db2547ba44d2e4715e9))
+
+
+### Chores
+
+* add docs to RequestOptions type ([533b494](https://github.com/sili-wen/document-ai-sdk/commit/533b4947447f4aac6ea8c46a32210ddb3ef748b8))
+* add package to package.json ([140a2b7](https://github.com/sili-wen/document-ai-sdk/commit/140a2b7166bb16e39c895c47cc7c675c943442a6))
+* **ci:** only run for pushes and fork pull requests ([c99cdd5](https://github.com/sili-wen/document-ai-sdk/commit/c99cdd59e967646690a56e954138aa999cc0b42e))
+* **client:** improve path param validation ([d2a4daf](https://github.com/sili-wen/document-ai-sdk/commit/d2a4dafebd6ebff2c89ff99b650159cdfc07331e))
+* **client:** qualify global Blob ([25becbe](https://github.com/sili-wen/document-ai-sdk/commit/25becbea1bc4a30ce00f2149bd5d52b83bd46f51))
+* **deps:** update dependency @types/node to v20.17.58 ([f52b871](https://github.com/sili-wen/document-ai-sdk/commit/f52b87197311fb1439a9cd1f8f3abf58fac0241d))
+* **internal:** codegen related update ([3e4bfba](https://github.com/sili-wen/document-ai-sdk/commit/3e4bfba0771e9b76ed641542efc2c47a608805b4))
+* **internal:** formatting change ([ce7eb2e](https://github.com/sili-wen/document-ai-sdk/commit/ce7eb2e73551655807cf00cd5b7b2545ecb18cba))
+* **internal:** move publish config ([4159c4d](https://github.com/sili-wen/document-ai-sdk/commit/4159c4d4a56085451a3962a61ea2c3dc8ed8a2e2))
+* **internal:** remove redundant imports config ([782d9d6](https://github.com/sili-wen/document-ai-sdk/commit/782d9d677e746de42d5ae7228c0ac7ee59110485))
+* **internal:** update comment in script ([d87582d](https://github.com/sili-wen/document-ai-sdk/commit/d87582d179d926d2b27b843ca2f82dbf2a4c61bc))
+* make some internal functions async ([831e02c](https://github.com/sili-wen/document-ai-sdk/commit/831e02c05b7612af09a57cb6c6e89cec38d7204c))
+* **ts:** reorder package.json imports ([5c0cf84](https://github.com/sili-wen/document-ai-sdk/commit/5c0cf8444ee8b48ae44526801dee8662785d1876))
+* update @stainless-api/prism-cli to v5.15.0 ([2dc89a5](https://github.com/sili-wen/document-ai-sdk/commit/2dc89a5d06de66a56f665f60041f8f6f5e0ca1d5))
+* update CI script ([064dde2](https://github.com/sili-wen/document-ai-sdk/commit/064dde224d7ab611d9929fdcb072afc207738d15))
+
 ## 1.5.2 (2025-06-27)
 
 Full Changelog: [v1.5.1...v1.5.2](https://github.com/sili-wen/document-ai-sdk/compare/v1.5.1...v1.5.2)
